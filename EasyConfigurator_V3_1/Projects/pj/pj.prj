@@ -1,0 +1,12 @@
+pj
+OUTPUTS_TAG
+INPUTS_TAG
+sensor
+int8_t
+INFO_TAG
+0x00000001
+EtherCAT Technology Group
+0x1234ABCD
+0x00000001
+test
+END_TAG

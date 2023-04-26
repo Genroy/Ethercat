@@ -1,0 +1,27 @@
+
+Easy Configurator, programming engine  V_1_0 
+
+log created on Thu Sep 06 15:33:14 2018
+
+
+Scan adapters
+
+Adapter 1.rpcap://\Device\NPF_{713C7ADD-F882-4270-82A5-958258C9878C}
+Description Network adapter 'NVIDIA nForce MCP Networking Adapter Driver' on local host
+
+Adapter 2.rpcap://\Device\NPF_{41306849-318D-4F6D-8E4F-1AF264D747D9}
+Description Network adapter 'Microsoft' on local host
+
+Look for EtherCAT slave
+
+Opening the adapter 1
+
+Pcap receiving packet timeout
+Unable to receive from adapter 1
+
+Opening the adapter 2
+
+Pcap receiving packet timeout
+Unable to receive from adapter 2
+
+Error 503 - No EtherCAT slave detected

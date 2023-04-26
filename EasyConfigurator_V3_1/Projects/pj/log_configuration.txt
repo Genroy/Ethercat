@@ -1,0 +1,76 @@
+
+Easy Configurator, configuration engine  V_3_1 
+
+log created on Sun Feb 03 15:39:01 2019
+
+Analyzing the project file
+
+Easy Configurator project pj.prj
+
+OUTPUTS_TAG
+INPUTS_TAG
+Line 5 --- sensor                  int8_t
+INFO_TAG
+0x00000001
+EtherCAT Technology Group
+0x1234ABCD
+0x00000001
+test
+test
+END_TAG
+
+The pj.prj configuration file is correct
+
+ByteNumOut 0
+ByteNumIn  1
+PdoNumOut  0
+PdoNumIn   1
+
+Creating the pj.xml file
+
+PROJECT_TAG   pj.prj
+VENDOID_TAG   00000001
+VEN_NAM_TAG   EtherCAT Technology Group
+PRO_COD_TAG   1234ABCD
+REVISIO_TAG   00000001
+DEV_NAM_TAG   test
+DEV_NAM_TAG   test
+
+FIRST_TAG
+
+Output entries
+
+SECOND_TAG
+
+Input entries
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>1</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>sensor</Name>
+            <DataType>SINT</DataType>
+          </Entry>
+
+LAST_TAG
+
+The pj.xml file has been created
+
+Creating the pj.h file
+
+#define CUST_BYTE_NUM_OUT	0
+#define CUST_BYTE_NUM_IN	1
+#define TOT_BYTE_NUM_ROUND_OUT	0
+#define TOT_BYTE_NUM_ROUND_IN	4
+
+
+Output entries
+
+Input entries
+		int8_t      sensor;
+
+The pj.h file has been created
+
+Creating the pj.bin file
+
+
+The pj.bin file has been created
